@@ -18,7 +18,7 @@ export default {
     line-height: 3rem;
     font-weight: bold;
     span {
-      color: #fe6700;
+      color: #c75000;
     }
   }
   h2 {

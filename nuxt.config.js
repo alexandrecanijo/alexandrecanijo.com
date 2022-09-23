@@ -14,7 +14,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'title', name: 'title', content: 'AlexandreCanijo.com' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { hid: 'description', name: 'description', content: 'Personal website from web developer Alexandre Canijo' },
       { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: 'AlexandreCanijo.com' },
       { hid: 'application-name', name: 'application-name', content: 'AlexandreCanijo.com' },
       { hid: 'msapplication-TileColor', name: 'msapplication-TileColor', content: '#fe6700' },
@@ -88,6 +88,7 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxtjs/pwa',
     '@nuxtjs/google-analytics',
+    '@nuxtjs/dotenv',
   ],
 
   styleResources: {

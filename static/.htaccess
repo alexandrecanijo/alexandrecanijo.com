@@ -7,3 +7,9 @@ RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
 
 #Alternate default index page
 DirectoryIndex index.html
+
+<filesMatch ".(js|css|jpg|jpeg|png|gif|js|css|ico|swf)$">
+  Header set Cache-Control "max-age=31556952, public"
+  Header unset Last-Modified
+  Header unset ETag
+</filesMatch>

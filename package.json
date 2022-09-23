@@ -33,7 +33,7 @@
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.25.2",
     "nuxt": "^2.15.8",
-    "vue": "^2.7.10",
+    "vue": "^3.2.39",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10",
     "webpack": "^4.46.0"

@@ -5,6 +5,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'AcLogo',
+};
+</script>
+
 <style lang="scss">
 .logo {
   h1 {

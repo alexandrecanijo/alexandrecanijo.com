@@ -97,7 +97,14 @@ export default {
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/axios', '@nuxtjs/sitemap'],
+  modules: ['@nuxtjs/sentry', '@nuxtjs/axios', '@nuxtjs/sitemap'],
+
+  sentry: {
+    dsn: 'https://ef62f5dd2ea749fbaf9500701df04251@o1428923.ingest.sentry.io/6779427',
+    config: {
+      tracing: true,
+    },
+  },
 
   manifest: {
     name: 'Alexandre Canijo',

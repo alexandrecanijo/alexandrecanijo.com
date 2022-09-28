@@ -101,6 +101,7 @@ export default {
 
   sentry: {
     dsn: 'https://ef62f5dd2ea749fbaf9500701df04251@o1428923.ingest.sentry.io/6779427',
+    tracing: true,
     config: {
       tracing: true,
     },

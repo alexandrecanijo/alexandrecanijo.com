@@ -35,9 +35,9 @@
     "@sentry/tracing": "^6.19.7",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
-    "vue": "^2.7.10",
+    "vue": "^2.7.11",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10",
+    "vue-template-compiler": "^2.7.11",
     "webpack": "^4.46.0"
   },
   "devDependencies": {

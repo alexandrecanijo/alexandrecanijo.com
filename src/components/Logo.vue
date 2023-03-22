@@ -17,10 +17,12 @@ export default {
     font-size: 1.9rem;
     line-height: 3rem;
     font-weight: bold;
+
     span {
       color: #c75000;
     }
   }
+
   h2 {
     font-size: 1rem;
     line-height: 2rem;
@@ -34,6 +36,7 @@ export default {
       font-size: 4rem;
       line-height: 6rem;
     }
+
     h2 {
       font-size: 2rem;
       line-height: 3rem;

@@ -1,4 +1,6 @@
 export default {
+  srcDir: 'src/',
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -70,9 +72,6 @@ export default {
     ],
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@assets/styles/main.scss'],
-
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
@@ -88,8 +87,10 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxtjs/pwa',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/dotenv',
   ],
+
+  // Global CSS: https://go.nuxtjs.dev/config-css
+  css: ['@assets/styles/main.scss'],
 
   styleResources: {
     hoistUseStatements: true,
@@ -97,7 +98,12 @@ export default {
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/sentry', '@nuxtjs/axios', '@nuxtjs/sitemap'],
+  modules: ['@nuxtjs/sentry', '@nuxtjs/sitemap'],
+
+  eslint: {
+    fix: true,
+    extensions: ['js', 'ts', 'vue', 'css', 'scss'],
+  },
 
   sentry: {
     dsn: 'https://ef62f5dd2ea749fbaf9500701df04251@o1428923.ingest.sentry.io/6779427',
@@ -116,8 +122,6 @@ export default {
     start_url: '/',
     display: 'standalone',
   },
-
-  axios: {},
 
   googleAnalytics: {
     id: 'UA-529944-1',
@@ -219,6 +223,7 @@ export default {
     fallback: true,
     subFolders: true,
   },
+
   router: {
     base: '/',
   },

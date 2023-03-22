@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo should render the component 1`] = `
+"<div class="logo">
+  <h1>alexandre<span>canijo</span>.com</h1>
+  <h2>web developer @ work</h2>
+</div>"
+`;

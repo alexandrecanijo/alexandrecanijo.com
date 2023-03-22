@@ -1,3 +1,7 @@
-# alexandrecanijo.com
+<div align="center">
+  <h1>AlexandreCanijo.com</h1>
+</div>
 
-My personal Website - with PWA, SASS, etc.
+## My personal website
+
+Built with Nuxt2, SASS, PWA, Sentry, etc...

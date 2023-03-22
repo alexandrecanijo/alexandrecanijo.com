@@ -1,11 +1,12 @@
 <template>
-  <div>
-    <nuxt />
+  <div class="main">
+    <Nuxt />
   </div>
 </template>
 
 <script>
 export default {
+  name: 'DefaultLayout',
   head() {
     return {
       link: [
